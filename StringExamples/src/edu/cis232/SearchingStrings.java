@@ -17,7 +17,7 @@ public class SearchingStrings {
 		}
 		
 		//Use indexOf to find the word County
-		int countyIndex = userInput.lastIndexOf("County");
+		int countyIndex = userInput.indexOf("County");
 		if(countyIndex >= 0){
 			System.out.printf("The word 'County' appears at the %d index.%n", countyIndex);
 		} else {
