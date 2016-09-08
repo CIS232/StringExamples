@@ -8,7 +8,7 @@ public class ValueOfExamples {
 		int onesPlace = 7;
 		
 		//combine them together to show 57
-		String number = String.valueOf(tensPlace) + String.valueOf(onesPlace);
+		String number = String.valueOf(tensPlace).concat(String.valueOf(onesPlace));
 		System.out.println(number);
 		
 		
